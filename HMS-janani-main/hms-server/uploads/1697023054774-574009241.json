@@ -1,0 +1,247 @@
+[{
+  "_id": {
+    "$oid": "650ad500c914f08943817a99"
+  },
+  "textValue": "ddd",
+  "selectedOption": "option1",
+  "selectedOptions": [
+    "option1",
+    "option2"
+  ],
+  "isChecked": true,
+  "startDate": {
+    "$date": "2023-09-06T11:15:06.000Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-07T11:30:00.000Z"
+  },
+  "color": "#642929",
+  "currentDate": {
+    "$date": "2023-09-20T11:18:23.842Z"
+  },
+  "currentTime": "11:18:23 AM",
+  "radioChoice": "female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650ad5e3260391629e283c8b"
+  },
+  "textValue": "ddd",
+  "selectedOption": "option1",
+  "selectedOptions": [
+    "option1",
+    "option2"
+  ],
+  "isChecked": true,
+  "startDate": {
+    "$date": "2023-09-06T11:15:06.000Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-07T11:30:00.000Z"
+  },
+  "color": "#642929",
+  "currentDate": {
+    "$date": "2023-09-20T11:22:10.618Z"
+  },
+  "currentTime": "11:22:10 AM",
+  "radioChoice": "female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650ad7a8260391629e283c8d"
+  },
+  "textValue": "ddd",
+  "selectedOption": "option1",
+  "selectedOptions": [
+    "option1",
+    "option2"
+  ],
+  "isChecked": false,
+  "startDate": {
+    "$date": "2023-08-29T11:29:17.000Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-20T11:00:00.000Z"
+  },
+  "color": "#502c2c",
+  "currentDate": {
+    "$date": "2023-09-20T11:29:43.425Z"
+  },
+  "currentTime": "11:29:43 AM",
+  "radioChoice": "female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650ad7c2260391629e283c8f"
+  },
+  "textValue": "ddd",
+  "selectedOption": "option1",
+  "selectedOptions": [
+    "option1",
+    "option2"
+  ],
+  "isChecked": false,
+  "startDate": {
+    "$date": "2023-08-29T11:29:17.000Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-20T11:00:00.000Z"
+  },
+  "color": "#502c2c",
+  "currentDate": {
+    "$date": "2023-09-20T11:30:10.600Z"
+  },
+  "currentTime": "11:30:10 AM",
+  "radioChoice": "female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650ad828260391629e283c91"
+  },
+  "textValue": "ddd",
+  "selectedOption": "option1",
+  "selectedOptions": [
+    "option1",
+    "option2"
+  ],
+  "isChecked": false,
+  "startDate": {
+    "$date": "2023-08-29T11:29:17.000Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-20T11:00:00.000Z"
+  },
+  "color": "#502c2c",
+  "currentDate": {
+    "$date": "2023-09-20T11:31:51.884Z"
+  },
+  "currentTime": "11:31:51 AM",
+  "radioChoice": "female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650ad837260391629e283c93"
+  },
+  "textValue": "ddd",
+  "selectedOption": "option1",
+  "selectedOptions": [
+    "option1",
+    "option2"
+  ],
+  "isChecked": true,
+  "startDate": {
+    "$date": "2023-08-29T11:29:17.000Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-20T11:00:00.000Z"
+  },
+  "color": "#502c2c",
+  "currentDate": {
+    "$date": "2023-09-20T11:32:06.883Z"
+  },
+  "currentTime": "11:32:06 AM",
+  "radioChoice": "female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650ad8af260391629e283c95"
+  },
+  "textValue": "ddd",
+  "selectedOption": "option1",
+  "selectedOptions": [
+    "option1",
+    "option2"
+  ],
+  "isChecked": true,
+  "startDate": {
+    "$date": "2023-08-29T11:29:17.000Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-20T11:00:00.000Z"
+  },
+  "color": "#502c2c",
+  "currentDate": {
+    "$date": "2023-09-20T11:34:07.890Z"
+  },
+  "currentTime": "11:34:07 AM",
+  "radioChoice": "female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650ad8d8260391629e283c97"
+  },
+  "textValue": "ddd",
+  "selectedOption": "option1",
+  "selectedOptions": [
+    "option1",
+    "option2"
+  ],
+  "isChecked": true,
+  "startDate": {
+    "$date": "2023-08-29T11:29:17.000Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-20T11:00:00.000Z"
+  },
+  "color": "#502c2c",
+  "currentDate": {
+    "$date": "2023-09-20T11:34:47.891Z"
+  },
+  "currentTime": "11:34:47 AM",
+  "radioChoice": "female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650ad90d260391629e283c99"
+  },
+  "textValue": "ddd",
+  "selectedOption": "option1",
+  "selectedOptions": [
+    "option1",
+    "option2"
+  ],
+  "isChecked": true,
+  "startDate": {
+    "$date": "2023-08-29T11:29:17.000Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-20T11:00:00.000Z"
+  },
+  "color": "#502c2c",
+  "currentDate": {
+    "$date": "2023-09-20T11:35:41.403Z"
+  },
+  "currentTime": "11:35:41 AM",
+  "radioChoice": "female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650adb64231b168007d2d934"
+  },
+  "textValue": "dfgb",
+  "selectedOption": "option2",
+  "selectedOptions": [],
+  "isChecked": true,
+  "startDate": {
+    "$date": "2023-09-20T11:38:26.861Z"
+  },
+  "datetimeValue": {
+    "$date": "2023-09-20T11:38:26.861Z"
+  },
+  "color": "#8ed1fc",
+  "currentDate": {
+    "$date": "2023-09-20T11:45:39.891Z"
+  },
+  "currentTime": "11:45:39 AM",
+  "radioChoice": "male",
+  "__v": 0
+}]

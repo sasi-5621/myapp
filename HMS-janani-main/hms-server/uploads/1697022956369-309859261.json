@@ -1,0 +1,497 @@
+[{
+  "_id": {
+    "$oid": "6512c16369774b314bf55419"
+  },
+  "patientId": "JC00003",
+  "name": "Shaik",
+  "gender": "",
+  "age": 1,
+  "mobile": "1",
+  "bloodGroup": "o+",
+  "email": "shaik@gmail.com",
+  "address": "RR nagar",
+  "city": "Banglore",
+  "area": "1",
+  "referredBy": "1",
+  "items": [
+    {
+      "type": "consultation",
+      "price": "1",
+      "discount": "1",
+      "_id": {
+        "$oid": "6512c16369774b314bf5541a"
+      }
+    }
+  ],
+  "doctor": "ARUN",
+  "date": "2023-09-03",
+  "duration": "15",
+  "hour": "2",
+  "minute": "16",
+  "timeOfDay": "PM",
+  "totalAmount": 0.99,
+  "paymentMode": "cash",
+  "AmountStatus": "paid",
+  "staffid": "DOC00001",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6517dbd4b4c7004e2473a4f0"
+  },
+  "patientId": "JC00014",
+  "name": "Amruth L P",
+  "gender": "male",
+  "age": -1,
+  "mobile": "1",
+  "bloodGroup": "A-",
+  "email": "amruthgowd91200@gmail.com",
+  "address": "Hessaragatta",
+  "city": "Banglore",
+  "area": "1",
+  "referredBy": "1",
+  "items": [
+    {
+      "type": "surgery",
+      "price": "1",
+      "discount": "1",
+      "_id": {
+        "$oid": "6517dbd4b4c7004e2473a4f1"
+      }
+    }
+  ],
+  "doctor": "ARUN",
+  "date": "2023-09-30",
+  "duration": "15",
+  "hour": "2",
+  "minute": "13",
+  "timeOfDay": "AM",
+  "totalAmount": 0.99,
+  "paymentMode": "cash",
+  "AmountStatus": "",
+  "__v": 0,
+  "staffid": "DOC00001"
+},
+{
+  "_id": {
+    "$oid": "6517dc46a66c8955b64e2d18"
+  },
+  "patientId": "JC00015",
+  "name": "Amruth L P",
+  "gender": "male",
+  "age": 1,
+  "mobile": "-2",
+  "bloodGroup": "A+",
+  "email": "amruthgowd91200@gmail.com",
+  "address": "Hessaragatta",
+  "city": "Banglore",
+  "area": "1",
+  "referredBy": "1",
+  "items": [
+    {
+      "type": "surgery",
+      "price": "100",
+      "discount": "1",
+      "_id": {
+        "$oid": "6517dc46a66c8955b64e2d19"
+      }
+    }
+  ],
+  "doctor": "ARUN",
+  "date": "2023-09-30",
+  "duration": "30",
+  "hour": "1",
+  "minute": "2",
+  "timeOfDay": "AM",
+  "totalAmount": 99,
+  "paymentMode": "cash",
+  "AmountStatus": "",
+  "staffid": "DOC00001",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6517ddd6a66c8955b64e2e5f"
+  },
+  "patientId": "JC00016",
+  "name": "Amruth L P",
+  "gender": "male",
+  "age": 1,
+  "mobile": "1",
+  "bloodGroup": "A+",
+  "email": "amruthgowd91200@gmail.com",
+  "address": "Hessaragatta",
+  "city": "Banglore",
+  "area": "1",
+  "referredBy": "1",
+  "items": [
+    {
+      "type": "consultation",
+      "price": "1",
+      "discount": "1",
+      "_id": {
+        "$oid": "6517ddd6a66c8955b64e2e60"
+      }
+    }
+  ],
+  "doctor": "Kumar",
+  "date": "2023-09-30",
+  "duration": "15",
+  "hour": "1",
+  "minute": "16",
+  "timeOfDay": "AM",
+  "totalAmount": 0.99,
+  "paymentMode": "cash",
+  "AmountStatus": "",
+  "staffid": "DOC00002",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651be385f8008d23014ae0c8"
+  },
+  "patientId": "JC00019",
+  "name": "Amruth L P",
+  "gender": "male",
+  "age": 1,
+  "mobile": "1",
+  "bloodGroup": "B+",
+  "email": "amruthgowd91200@gmail.com",
+  "address": "Hessaragatta",
+  "city": "Banglore",
+  "area": "1",
+  "referredBy": "1",
+  "items": [
+    {
+      "type": "surgery",
+      "price": "100",
+      "discount": "0",
+      "_id": {
+        "$oid": "651be385f8008d23014ae0c9"
+      }
+    },
+    {
+      "type": "consultation",
+      "price": "111",
+      "discount": "1",
+      "_id": {
+        "$oid": "651be385f8008d23014ae0ca"
+      }
+    }
+  ],
+  "doctor": "Amruth L P",
+  "date": "2023-10-16",
+  "duration": "15",
+  "hour": "10",
+  "minute": "16",
+  "timeOfDay": "PM",
+  "totalAmount": 100,
+  "paymentMode": "cash",
+  "AmountStatus": "",
+  "staffid": "DOC00002",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651be5d8f8008d23014ae127"
+  },
+  "patientId": "JC00020",
+  "name": "Amruth L P",
+  "gender": "male",
+  "age": 1,
+  "mobile": "1",
+  "bloodGroup": "B-",
+  "email": "amruthgowd91200@gmail.com",
+  "address": "Hessaragatta",
+  "city": "Banglore",
+  "area": "1",
+  "referredBy": "1",
+  "items": [
+    {
+      "type": "surgery",
+      "price": "111",
+      "discount": "1",
+      "_id": {
+        "$oid": "651be5d8f8008d23014ae128"
+      }
+    },
+    {
+      "type": "consultation",
+      "price": "100",
+      "discount": "4",
+      "_id": {
+        "$oid": "651be5d8f8008d23014ae129"
+      }
+    }
+  ],
+  "doctor": "ARUN",
+  "date": "2023-10-03",
+  "duration": "15",
+  "hour": "9",
+  "minute": "15",
+  "timeOfDay": "AM",
+  "totalAmount": 109.89,
+  "paymentMode": "cash",
+  "AmountStatus": "",
+  "staffid": "DOC00001",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651bafa431d09c6ac070ba89"
+  },
+  "patientId": "JC00025",
+  "name": "Narendra Chitteti",
+  "gender": "male",
+  "age": 28,
+  "mobile": "9876543346",
+  "bloodGroup": "B-",
+  "email": "narendra12@gmail",
+  "address": "1-77, Chelluru (village& post),",
+  "city": "Tirupati",
+  "area": "tpt",
+  "referredBy": "jaggu",
+  "items": [
+    {
+      "type": "followupconsultation",
+      "price": "299",
+      "discount": "3",
+      "_id": {
+        "$oid": "651bafa431d09c6ac070ba8a"
+      }
+    }
+  ],
+  "doctor": "ARUN",
+  "date": "2023-10-04",
+  "duration": "30",
+  "hour": "9",
+  "minute": "15",
+  "timeOfDay": "AM",
+  "totalAmount": 290.03,
+  "paymentMode": "cash",
+  "AmountStatus": "paid",
+  "staffid": "DOC00001",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651bb38bed57810071f8d1aa"
+  },
+  "patientId": "JC00026",
+  "name": "patient",
+  "gender": "male",
+  "age": 20,
+  "mobile": "9876543210",
+  "bloodGroup": "AB+",
+  "email": "patient@mail.com",
+  "address": "Bengaluru",
+  "city": "Bengaluru",
+  "area": "RR Nagar",
+  "referredBy": "Narendra",
+  "items": [
+    {
+      "type": "consultation",
+      "price": "200",
+      "discount": "0",
+      "_id": {
+        "$oid": "651bb38bed57810071f8d1ab"
+      }
+    }
+  ],
+  "doctor": "",
+  "date": "2023-10-03",
+  "duration": "30",
+  "hour": "12",
+  "minute": "15",
+  "timeOfDay": "PM",
+  "totalAmount": 0,
+  "paymentMode": "cash",
+  "AmountStatus": "",
+  "staffid": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651bb3ca31d09c6ac070bb2b"
+  },
+  "patientId": "JC00027",
+  "name": "jagadeesh",
+  "gender": "male",
+  "age": 26,
+  "mobile": "9876543452",
+  "bloodGroup": "AB+",
+  "email": "jaggu12@gmail",
+  "address": "chellore",
+  "city": "tpt",
+  "area": "tirupati",
+  "referredBy": "Narendra",
+  "items": [
+    {
+      "type": "freefollowup",
+      "price": "299",
+      "discount": "2",
+      "_id": {
+        "$oid": "651bb3ca31d09c6ac070bb2c"
+      }
+    }
+  ],
+  "doctor": "Amruth L P",
+  "date": "2023-10-10",
+  "duration": "45",
+  "hour": "10",
+  "minute": "16",
+  "timeOfDay": "PM",
+  "totalAmount": 293.02,
+  "paymentMode": "cash",
+  "AmountStatus": "paid",
+  "staffid": "DOC00002",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651c261a8f85d12be95ae481"
+  },
+  "patientId": "JC00028",
+  "name": "Janani",
+  "gender": "female",
+  "age": 20,
+  "mobile": "9876543210",
+  "bloodGroup": "AB+",
+  "email": "janani@mail.com",
+  "address": "7th road",
+  "city": "Bengaluru",
+  "area": "RR Nagar",
+  "referredBy": "None",
+  "items": [
+    {
+      "type": "consultation",
+      "price": "100",
+      "discount": "0",
+      "_id": {
+        "$oid": "651c261a8f85d12be95ae482"
+      }
+    }
+  ],
+  "doctor": "Amruth L P",
+  "date": "2023-10-03",
+  "duration": "60",
+  "hour": "9",
+  "minute": "0",
+  "timeOfDay": "PM",
+  "totalAmount": 100,
+  "paymentMode": "cash",
+  "AmountStatus": "paid",
+  "staffid": "DOC00002",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651c28cf8f85d12be95ae511"
+  },
+  "patientId": "JC00029",
+  "name": "nnn",
+  "gender": "male",
+  "age": 20,
+  "mobile": "9876543210",
+  "bloodGroup": "AB+",
+  "email": "nnn@mail.com",
+  "address": "7th road",
+  "city": "Bengaluru",
+  "area": "RR Nagar",
+  "referredBy": "none",
+  "items": [
+    {
+      "type": "consultation",
+      "price": "200",
+      "discount": "0",
+      "_id": {
+        "$oid": "651c28cf8f85d12be95ae512"
+      }
+    }
+  ],
+  "doctor": "Amruth L P",
+  "date": "2023-10-04",
+  "duration": "15",
+  "hour": "9",
+  "minute": "0",
+  "timeOfDay": "PM",
+  "totalAmount": 200,
+  "paymentMode": "cash",
+  "AmountStatus": "paid",
+  "staffid": "DOC00002",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651cc435cd21959f940ecc77"
+  },
+  "patientId": "JC00030",
+  "name": "New patient ",
+  "gender": "male",
+  "age": 25,
+  "mobile": "9876543210",
+  "bloodGroup": "AB+",
+  "email": "patient@mail.com",
+  "address": "7th road ",
+  "city": "Bengaluru",
+  "area": "RR Nagar",
+  "referredBy": "None",
+  "items": [
+    {
+      "type": "consultation",
+      "price": "100",
+      "discount": "0",
+      "_id": {
+        "$oid": "651cc435cd21959f940ecc78"
+      }
+    }
+  ],
+  "doctor": "Amruth L P",
+  "date": "2023-10-04",
+  "duration": "60",
+  "hour": "9",
+  "minute": "0",
+  "timeOfDay": "AM",
+  "totalAmount": 100,
+  "paymentMode": "cash",
+  "AmountStatus": "paid",
+  "staffid": "DOC00002",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "651cc4d8ce7619a5c73c64ce"
+  },
+  "patientId": "JC00031",
+  "name": "jagadeesh kumar",
+  "gender": "male",
+  "age": 24,
+  "mobile": "07075181482",
+  "bloodGroup": "A+",
+  "email": "jagadeeshpavan@icloud.com",
+  "address": "chelluru",
+  "city": "tirupati",
+  "area": "ttd",
+  "referredBy": "shaik",
+  "items": [
+    {
+      "type": "consultation",
+      "price": "111",
+      "discount": "2",
+      "_id": {
+        "$oid": "651cc4d8ce7619a5c73c64cf"
+      }
+    }
+  ],
+  "doctor": "",
+  "date": "2023-10-04",
+  "duration": "15",
+  "hour": "11",
+  "minute": "13",
+  "timeOfDay": "AM",
+  "totalAmount": 0,
+  "paymentMode": "cash",
+  "AmountStatus": "",
+  "staffid": "",
+  "__v": 0
+}]

@@ -1,0 +1,110 @@
+// Function to validate name
+function validateName() {
+  var nameInput = document.getElementById("name");
+  var nameHint = document.getElementById("nameHint");
+
+  if (/^[A-Za-z\s]+$/.test(nameInput.value)) {
+    nameInput.classList.remove("invalid");
+    nameInput.classList.add("valid");
+    nameHint.innerHTML = "";
+  } else {
+    nameInput.classList.remove("valid");
+    nameInput.classList.add("invalid");
+    nameHint.innerHTML = "* (Please enter a valid name - only alphabets and spaces allowed)";
+  }
+  enableSubmitButton();
+}
+
+// Function to validate password
+function validatePassword() {
+  var passwordInput = document.getElementById("password");
+  var passwordHint = document.getElementById("passwordHint");
+
+  var password = passwordInput.value;
+
+  if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$/.test(password)) {
+    passwordInput.classList.remove("invalid");
+    passwordInput.classList.add("valid");
+    passwordHint.innerHTML = "";
+  } else {
+    passwordInput.classList.remove("valid");
+    passwordInput.classList.add("invalid");
+    passwordHint.innerHTML = "* (Please enter a valid password - at least 8 characters, including one uppercase letter, one lowercase letter, one digit, and one special character)";
+  }
+  enableSubmitButton();
+}
+
+
+// Function to validate confirm password
+function validateConfirmPassword() {
+  var passwordInput = document.getElementById("password");
+  var confirmPasswordInput = document.getElementById("confirmPassword");
+  var confirmPasswordHint = document.getElementById("confirmPasswordHint");
+
+  if (passwordInput.value === confirmPasswordInput.value) {
+    confirmPasswordInput.classList.remove("invalid");
+    confirmPasswordInput.classList.add("valid");
+    confirmPasswordHint.innerHTML = "";
+  } else {
+    confirmPasswordInput.classList.remove("valid");
+    confirmPasswordInput.classList.add("invalid");
+    confirmPasswordHint.innerHTML = "* (Passwords do not match)";
+  }
+  enableSubmitButton();
+}
+
+// Function to validate phone number
+function validatePhone() {
+  var phoneInput = document.getElementById("phone");
+  var phoneHint = document.getElementById("phoneHint");
+
+  if (/^[6789]\d{9}$/.test(phoneInput.value)) {
+    phoneInput.classList.remove("invalid");
+    phoneInput.classList.add("valid");
+    phoneHint.innerHTML = "";
+  } else {
+    phoneInput.classList.remove("valid");
+    phoneInput.classList.add("invalid");
+    phoneHint.innerHTML = "* (Please enter a valid phone number - 10 digits starting with 6, 7, 8, or 9)";
+  }
+  enableSubmitButton();
+}
+
+// Function to validate email
+function validateEmail() {
+  var emailInput = document.getElementById("email");
+  var emailHint = document.getElementById("emailHint");
+
+  if (/^\S+@\S+\.\S+$/.test(emailInput.value)) {
+    emailInput.classList.remove("invalid");
+    emailInput.classList.add("valid");
+    emailHint.innerHTML = "";
+  } else {
+    emailInput.classList.remove("valid");
+    emailInput.classList.add("invalid");
+    emailHint.innerHTML = "* (Please enter a valid email address)";
+  }
+  enableSubmitButton();
+}
+
+// Function to enable or disable submit button
+function enableSubmitButton() {
+  var submitBtn = document.getElementById("submitBtn");
+  var nameInput = document.getElementById("name");
+  var passwordInput = document.getElementById("password");
+  var confirmPasswordInput = document.getElementById("confirmPassword");
+  var phoneInput = document.getElementById("phone");
+  var emailInput = document.getElementById("email");
+
+  if (
+    nameInput.classList.contains("valid") &&
+    passwordInput.classList.contains("valid") &&
+    confirmPasswordInput.classList.contains("valid") &&
+    phoneInput.classList.contains("valid") &&
+    emailInput.classList.contains("valid")
+  ) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disabled = true;
+  }
+}
